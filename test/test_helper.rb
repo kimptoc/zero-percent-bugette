@@ -1,5 +1,6 @@
 ENV["RAILS_ENV"] = "test"
 
+require 'active_support_test_unit_pass_count'
 
 require 'simplecov'
 SimpleCov.start 'rails'
