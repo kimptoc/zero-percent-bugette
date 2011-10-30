@@ -1,6 +1,5 @@
 ENV["RAILS_ENV"] = "test"
 
-require 'active_support_test_unit_pass_count'
 
 require 'simplecov'
 SimpleCov.start 'rails'
@@ -10,6 +9,9 @@ require File.expand_path('../../config/environment', __FILE__)
 require 'rails/test_help'
 
 require 'mocha'
+
+
+require 'active_support_test_unit_pass_count'
 
 class ActiveSupport::TestCase
   # Setup all fixtures in test/fixtures/*.(yml|csv) for all tests in alphabetical order.
